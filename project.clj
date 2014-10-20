@@ -5,6 +5,6 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.scala-lang/scala-library "2.11.2"]
-                 [tnoda.scala/hello-world_2.11 "0.1.1"]]
+                 [tnoda.scala/hello-world_2.11 "0.1.2"]]
   :main tnoda.hello-world)
 

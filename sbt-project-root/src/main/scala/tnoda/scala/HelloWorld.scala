@@ -1,6 +1,10 @@
 package tnoda.scala
 
-object HelloWorld {
-  def helloWorld = println("Hello Scala")
-}
+import clojure.lang.AFn
 
+class HelloWorld extends AFn {
+  override def invoke = {
+    println("Hello Scala")
+    null
+  }
+}
